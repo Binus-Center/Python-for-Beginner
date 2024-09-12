@@ -15,7 +15,7 @@ b = int(input("Masukkan nilai B = "))
 c = int(input("Masukkan nilai C = "))
 
 if (a == 0):
-    print("Bukan merupakan persamaan kuadrat, karena nilai A =" + str(a))
+    print("Bukan merupakan persamaan kuadrat, karena nilai A = " + str(a))
 else:
     D = pow(b, 2)-(4*a*c)
     if (D > 0):
